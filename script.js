@@ -28,7 +28,7 @@ musicaFocoInput.addEventListener('change', () => {
 })
 
 focoBt.addEventListener('click', () => {
-    tempoDecorridoEmSegundos= 900
+    tempoDecorridoEmSegundos= 10
     alterarContexto('foco')
     focoBt.classList.add('active')
 })
